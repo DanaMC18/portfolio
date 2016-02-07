@@ -1,25 +1,21 @@
-body {
+/*body {
   background: #EDF6F5;
-  /*font-family: arial;*/
-}
+}*/
 
-#header {
+/*#header {
   background-color: #AEEADE;
   background-size: 100%;
   min-height: 100px;
-}
+}*/
 
-#about {
+/*#about {
   background: #EBE4DC;
-}
+}*/
 
 #headshot {
-  max-width: 200px;
-  max-height: 200px;
-  border: 1px solid grey;
-  border-radius: 5%;
+  max-height: 275px;
 }
 
-#projects {
+/*#projects {
   background: #C4EAEB;
-}
+}*/
