@@ -1,21 +1,28 @@
-/*body {
-  background: #EDF6F5;
-}*/
-
-/*#header {
-  background-color: #AEEADE;
+#header {
+  background-image: url('imgs/books.jpg');
   background-size: 100%;
-  min-height: 100px;
-}*/
+  min-height: 375px;
+  background-position: center;
+}
 
-/*#about {
-  background: #EBE4DC;
-}*/
+#header h1 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 50px;
+}
+
+#nav-bar {
+  text-align: center;
+  width: 100%;
+  background: #EEEEEE;
+  margin-top: 0px;
+}
+
+#nav-bar a {
+  font-weight: bolder;
+}
 
 #headshot {
   max-height: 275px;
 }
-
-/*#projects {
-  background: #C4EAEB;
-}*/
