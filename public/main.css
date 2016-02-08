@@ -1,3 +1,7 @@
+/** {
+  border: 1px solid red;
+}*/
+
 #header {
   background-image: url('imgs/books.jpg');
   background-size: 100%;
@@ -26,3 +30,8 @@
 #headshot {
   max-height: 275px;
 }
+
+#projects-header {
+  text-align: center;
+}
+

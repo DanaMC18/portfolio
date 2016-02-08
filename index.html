@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Dana Czinsky</title>
+  <script type="text/javascript" src="public/bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="public/bower_components/semantic/dist/semantic.js"></script>
   <script type="text/javascript" src="public/main.js"></script>
   <link rel="stylesheet" type="text/css" href="public/bower_components/semantic/dist/semantic.css">
   <link rel="stylesheet" type="text/css" href="public/main.css">
@@ -21,12 +23,12 @@
   <br>
 
   <div class="ui padded grid">
-    <div class = "row">
-      <div class="right floated six wide column">
+    <div class="row">
+      <div class="six wide column">
         <img id="headshot" class= "ui centered rounded bordered image" src="public/imgs/headshot.jpg">
       </div>
       <div class= "ten wide column">
-        <div class="ui raised segments">
+        <div class= "ui raised segments">
           <div class= "ui inverted segment">
             <h2> About </h2>
           </div>
@@ -38,7 +40,50 @@
         </div> <!-- segments -->
       </div> <!-- ten col -->
     </div> <!--row-->
-  </div>
+  </div> <!--grid -->
+
+  <!-- <div class="ui section divider">
+  </div> -->
+  <br>
+
+  <div class="ui padded grid">
+    <div class="ui centered grid container">
+      <h2 id="projects-header"> Projects </h2>
+    </div>
+
+    <div class="row">
+      <div class="two wide column"></div>
+      
+      <div class="twelve wide column">
+
+        <div class="ui special cards">
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <div class="ui inverted button"> Visit </div>
+                  </div><!--center -->
+                </div> <!--content-->
+              </div> <!--dimmer-->
+              <img src="./public/imgs/napstr.png">
+            </div> <!--dimmable image -->
+
+            <div class="content">
+              <a class="header"> napstr </a>
+              <div class="meta">
+                <span> Log in with <br>Username: Guest <br> Password: pass123 <br>
+                Or create an account! </span>
+              </div><!--meta -->
+            </div> <!--content-->
+
+          </div> <!--card-->
+        </div> <!--special cards-->
+        
+      </div> <!--twelve wide column-->
+      <div class="two wide column"></div>
+    </div> <!--row -->
+  </div> <!--grid-->
 
 
 
