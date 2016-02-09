@@ -62,9 +62,8 @@ body {
 
 .link:hover:after {
   width: 100%;
-  background: blue;
+  background: black;
 }
-
 
 #nav-bar {
   text-align: center;
@@ -89,6 +88,11 @@ body {
 
 #headshot {
   max-height: 275px;
+}
+
+#about a {
+  color: black;
+  font-weight: bolder;
 }
 
 #divider {
