@@ -44,6 +44,28 @@ body {
   background: white;
 }
 
+.link {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.link:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.link:hover:after {
+  width: 100%;
+  background: blue;
+}
+
+
 #nav-bar {
   text-align: center;
   width: 100%;
