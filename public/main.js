@@ -6,4 +6,8 @@ $(document).ready(function(){
     on: 'hover'
   });
 
+  $('.ui.sticky')
+  .sticky()
+;
+
 })

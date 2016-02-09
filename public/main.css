@@ -1,6 +1,6 @@
-/** {
-  border: 1px solid red;
-}*/
+body {
+  background: url('http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-9.jpg');
+}
 
 #header {
   background-image: url('imgs/books.jpg');
@@ -69,9 +69,18 @@
   max-height: 275px;
 }
 
+#divider {
+  margin-bottom: 0px;
+  visibility: hidden;
+}
+
 #projects-header {
   text-align: center;
   font-weight: bolder;
 }
 
+#projects {
+  padding-top: 1%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
 
