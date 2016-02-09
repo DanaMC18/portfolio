@@ -4,9 +4,10 @@ body {
 
 #header {
   background-image: url('imgs/books.jpg');
-  background-size: 100%;
   min-height: 375px;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
