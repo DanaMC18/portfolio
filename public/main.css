@@ -23,13 +23,13 @@
 }
 
 /*http://bradsknutson.com/blog/css-sliding-underline/*/
-.sliding-middle-out {
+.email {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
 }
 
-.sliding-middle-out:after {
+.email:after {
   content: '';
   display: block;
   margin: auto;
@@ -39,7 +39,7 @@
   transition: width .5s ease, background-color .5s ease;
 }
 
-.sliding-middle-out:hover:after {
+.email:hover:after {
   width: 100%;
   background: white;
 }
