@@ -1,4 +1,4 @@
-console.log('linked');
+console.log('Thank you for visiting my site!');
 
 $(document).ready(function(){
 

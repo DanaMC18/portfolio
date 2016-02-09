@@ -1,5 +1,5 @@
 body {
-  background: url('http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-9.jpg');
+  background: url('imgs/background.jpg');
 }
 
 #header {
@@ -70,7 +70,6 @@ body {
   width: 100%;
   background: #EEEEEE;
   margin-top: 0px;
-  vertical-align: bottom;
 }
 
 #nav-bar a {
@@ -90,14 +89,13 @@ body {
   max-height: 275px;
 }
 
+#about {
+  padding-bottom: 26px;
+}
+
 #about a {
   color: black;
   font-weight: bolder;
-}
-
-#divider {
-  margin-bottom: 0px;
-  visibility: hidden;
 }
 
 #projects-header {
