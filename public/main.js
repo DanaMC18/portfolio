@@ -6,8 +6,14 @@ $(document).ready(function(){
     on: 'hover'
   });
 
-  $('.ui.sticky')
-  .sticky()
-;
+  $(window).scroll(function(){
+    // console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 375) {
+      $('#nav-bar').addClass('navbar-fixed');
+    }
+    if ($(window).scrollTop() < 375) {
+      $('#nav-bar').removeClass('navbar-fixed');
+    }
+  });
 
 })
