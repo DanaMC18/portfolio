@@ -113,6 +113,7 @@ body {
 
 #projects {
   padding-top: 1%;
+  border-top: 1px solid lightgrey;
   background-color: rgba(0, 0, 0, 0.05);
 }
 

@@ -1,4 +1,4 @@
-console.log('Thank you for visiting my site!');
+console.log('It does not do to dwell on dreams and forget to live');
 
 $(document).ready(function(){
 
