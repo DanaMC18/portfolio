@@ -1,7 +1,7 @@
 # Portfolio
 
 One page, front-end only personal site for Dana Czinsky 
-https://danaczinsky.herokuapp.com/
+danaczinsky.com/
 
 ## Technologies Used
 - Node.js
