@@ -1,7 +1,6 @@
 # Portfolio
 
-One page, front-end only personal site for Dana Czinsky 
-danaczinsky.com/
+One page, front-end only personal site for Dana Czinsky: www.danaczinsky.com
 
 ## Technologies Used
 - Node.js
